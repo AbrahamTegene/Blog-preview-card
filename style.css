@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&display=swap');
+/* font-family: 'Figtree', sans-serif; */
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-size: 14px;
+    background-color: hsl(47, 88%, 63%);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    max-width: 1440px;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 6px solid black;
+    border-bottom: 6px solid black;
+    border-radius: 10px;
+    background-color: #fff;
+    width: 400px;
+    gap: 15px;
+}
+
+.box img{
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding-left: 30px;
+    gap: 5px;
+}
+
+.paragraph{
+    background-color: hsl(47, 88%, 63%);
+    width: 70px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    font-size: 16px;
+    font-family: 'Figtree', sans-serif;
+    font-weight: 800;
+}
+
+.date{
+    font-family: 'Figtree', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color:  hsl(0, 0%, 50%);
+}
+.details h2{
+    font-family: 'Figtree', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.xp{
+    font-family: 'Figtree', sans-serif;
+    font-size: 16px;
+    color:  hsl(0, 0%, 50%);
+}
+
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.profile img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+.profile p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Figtree', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+  
+}
